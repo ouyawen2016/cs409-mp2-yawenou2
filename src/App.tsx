@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/cs409-mp2-yawenou2">
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Header />
         <main className="main-content">
