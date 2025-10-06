@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cs409-mp2-yawenou2/static/css/main.b2305230.css",
+    "main.js": "/cs409-mp2-yawenou2/static/js/main.c20a0228.js",
+    "static/js/453.18d8fd26.chunk.js": "/cs409-mp2-yawenou2/static/js/453.18d8fd26.chunk.js",
+    "index.html": "/cs409-mp2-yawenou2/index.html",
+    "main.b2305230.css.map": "/cs409-mp2-yawenou2/static/css/main.b2305230.css.map",
+    "main.c20a0228.js.map": "/cs409-mp2-yawenou2/static/js/main.c20a0228.js.map",
+    "453.18d8fd26.chunk.js.map": "/cs409-mp2-yawenou2/static/js/453.18d8fd26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2305230.css",
+    "static/js/main.c20a0228.js"
+  ]
+}
