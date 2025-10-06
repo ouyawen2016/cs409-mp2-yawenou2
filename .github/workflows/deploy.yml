@@ -19,16 +19,14 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
-        cache-dependency-path: mp2/package-lock.json
+        cache-dependency-path: package-lock.json
         
     - name: Install dependencies
       run: |
-        cd mp2
         npm ci
         
     - name: Build
       run: |
-        cd mp2
         npm run build
         
     - name: Deploy to GitHub Pages
@@ -36,4 +34,4 @@ jobs:
       if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./mp2/build
+        publish_dir: ./build
